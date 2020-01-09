@@ -3,6 +3,8 @@ Ingame Save Button gives a button on screen that saves your game. When hovered, 
 
 Mod requested by Crimsoneye495 and coded by GoodPro712
 
+Thanks for Webmilio for helping find the code for saving in the source code of Terraria
+
 Forum: https://forums.terraria.org/index.php?threads/ingame-save-button.85276/
 Issues: https://github.com/GoodPro712/SaveButton/issues
 Releases: https://github.com/GoodPro712/SaveButton/releases

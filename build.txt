@@ -1,5 +1,5 @@
 displayName = Ingame Save Button
 author = GoodPro712
-version = 1.0
+version = 1.0.1
 side = client
 homepage = https://forums.terraria.org/index.php?threads/ingame-save-button.85276/
