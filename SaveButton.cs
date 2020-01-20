@@ -1,9 +1,9 @@
+using GoodProLib.GData;
+using GoodProLib.GUtils;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
-using System.Threading;
 using Terraria;
 using Terraria.ID;
-using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.UI;
 
@@ -18,7 +18,7 @@ namespace SaveButton
 			{
 				layers.Insert(mouseText, new LegacyGameInterfaceLayer("SaveButton: Save Button", delegate
 				{
-					if (!Main.gameMenu && !Main.playerInventory)
+					if (!Main.gameMenu && !PlayerData.InventoryOpen)
 					{
 						int X = 2;
 						int Y = 2;
@@ -27,20 +27,21 @@ namespace SaveButton
 
 						Vector2 size = Utils.DrawBorderString(Main.spriteBatch, text, new Vector2(X, Y), Color.WhiteSmoke);
 						Rectangle rectangle = new Rectangle(X, Y, (int)size.X + Y, (int)size.Y - 10);
+
 						if (rectangle.Contains(new Point(Main.mouseX, Main.mouseY)))
 						{
 							Main.hoverItemName = hoverText;
-							if(Main.mouseLeftRelease && Main.mouseLeft)
+							if (Main.mouseLeftRelease && Main.mouseLeft)
 							{
-								if (Main.netMode == NetmodeID.SinglePlayer)
+								if (NetData.Singleplayer)
 								{
-									ThreadPool.QueueUserWorkItem(new WaitCallback(SavePlayer), 1);
-									ThreadPool.QueueUserWorkItem(new WaitCallback(SaveWorld), 1);
+									SaveUtils.SavePlayer();
+									SaveUtils.SaveWorld();
 									Main.NewText("Saved player and world!", Color.CornflowerBlue);
 								}
 								else if (Main.netMode == NetmodeID.MultiplayerClient)
 								{
-									ThreadPool.QueueUserWorkItem(new WaitCallback(SavePlayer), 1);
+									SaveUtils.SavePlayer();
 									Main.NewText("Saved player!", Color.CornflowerBlue);
 								}
 							}
@@ -51,16 +52,6 @@ namespace SaveButton
 					InterfaceScaleType.UI)
 				);
 			}
-		}
-
-		internal void SavePlayer(object threadContext)
-		{
-			Player.SavePlayer(Main.ActivePlayerFileData, false);
-		}
-
-		internal void SaveWorld(object threadContext)
-		{
-			WorldFile.saveWorld();
 		}
 	}
 }
