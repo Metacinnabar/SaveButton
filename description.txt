@@ -1,11 +1,4 @@
-Ingame Save Button gives a button on screen that saves your game. When hovered, this button says to click to save your game. In singleplayer this button will save your world and player. In multiplayer this button will only save the player.
+Save Control adds a UI button in game to the top left of your screen that when pressed saves your progress. In singleplayer, it will save both your world and player. In multiplayer it will only save your player.
+Save Control also adds a button to the in-game settings menu. This button exits the world without saving. Upon clicking this button there wil be a prompt for assurance.
 
-Mod requested by Crimsoneye495 and coded by GoodPro712
-
-Thanks for Webmilio for helping find the code for saving in the source code of Terraria
-
-Forum: https://forums.terraria.org/index.php?threads/ingame-save-button.85276/
-Github: https://github.com/GoodPro712/SaveButton
-Issues: https://github.com/GoodPro712/SaveButton/issues
-Releases: https://github.com/GoodPro712/SaveButton/releases
-Discord: https://discord.gg/VrxSx4B
+Thanks to LolXD87 for spanish translations!

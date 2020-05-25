@@ -1,0 +1,10 @@
+Common.AreYouSure=Estas seguro que quieres salir?
+Common.No=No!
+Common.Yes=Si!
+Common.LogQuit=Forzar la salida usando SaveControl
+Common.ExitButtonText=Salir sin guardar
+Common.Save=Guardar
+Common.ChatSavedPlayerWorld=Se guardo el jugador y el mundo!
+Common.LogSavedPlayerWorld=Se guardo jugador y el mundo usando SaveControl(Control de guardado)
+Common.ChatSavedPlayer=Se guardo el jugador!
+Common.LogSavedPlayer=Se guardo el jugador usando SaveControl

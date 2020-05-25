@@ -1,0 +1,13 @@
+Common.AreYouSure=Are you sure you want to exit?
+Common.No=No!
+Common.Yes=Yes!
+
+Common.ExitButtonText=Exit without Saving
+Common.Save=Save
+
+Common.ChatSavedPlayerWorld=Saved player and world!
+Common.ChatSavedPlayer=Saved player!
+
+Common.LogSavedPlayer=Saved the player using SaveControl
+Common.LogSavedPlayerWorld=Saved the player and world using SaveControl
+Common.LogQuit=Force quite using SaveControl
