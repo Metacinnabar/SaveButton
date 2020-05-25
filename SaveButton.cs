@@ -16,6 +16,8 @@ namespace SaveButton
 	//Make UIState so right click hold drag position
 	public class SaveButton : Mod
 	{
+		public static string noteFromGoodPro = "This code is absolutely horrible and you risk loosing all your brain cells by reading it.";
+
 		public bool areYouSureMenu = false;
 		public static readonly int assurancePadding = 11111;
 		public int cooldownTimer = 0;
