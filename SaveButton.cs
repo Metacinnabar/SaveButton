@@ -114,7 +114,7 @@ namespace SaveButton
 				layers.Insert(ingameOptions, new LegacyGameInterfaceLayer("SaveButton: Exit Button", delegate
 				{
 					if (Main.gameMenu || !Main.ingameOptionsWindow || Main.playerInventory)
-						return false;
+						return true;
 
 					if (Main.LocalPlayer.GetModPlayer<SavePlayer>().InventoryHotkeyPressed)
 						areYouSureMenu = false;
