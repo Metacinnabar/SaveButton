@@ -1,0 +1,13 @@
+Common.AreYouSure=Bist du dir sicher, dass du verlassen willst?
+Common.No=Nein!
+Common.Yes=Ja!
+
+Common.ExitButtonText=Verlassen ohne zu Speichern
+Common.Save=Speichern
+
+Common.ChatSavedPlayerWorld=Spieler und Welt wurde gespeichert!
+Common.ChatSavedPlayer=Spieler gespeichert!
+
+Common.LogSavedPlayer=Spieler wurde mit SaveControl gespeichert
+Common.LogSavedPlayerWorld=Spieler und Welt wurden mit SaveControl gespeichert
+Common.LogQuit=Sofort beenden mit SaveControl
