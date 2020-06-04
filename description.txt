@@ -2,3 +2,4 @@ Save Control adds a UI button in game to the top left of your screen that when p
 Save Control also adds a button to the in-game settings menu. This button exits the world without saving. Upon clicking this button there wil be a prompt for assurance.
 
 Thanks to LolXD87 for spanish translations!
+German Localization by TheStachelfisch
