@@ -10,4 +10,4 @@ Common.ChatSavedPlayer=Saved player!
 
 Common.LogSavedPlayer=Saved the player using SaveControl
 Common.LogSavedPlayerWorld=Saved the player and world using SaveControl
-Common.LogQuit=Force quite using SaveControl
+Common.LogQuit=Force quit using SaveControl
