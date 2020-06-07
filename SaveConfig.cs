@@ -5,8 +5,8 @@ namespace SaveButton
 {
 	public class SaveConfig : ModConfig
 	{
-		[Label("Log Saves")]
-		[Tooltip("True to send a message to the logs when you have saved the game.")]
+		[Label(Language.GetTextValue("Mods.SaveButton.Common.ConfigLogSaveLabel"))]
+		[Tooltip(Language.GetTextValue("Mods.SaveButton.Common.ConfigLogSaveDescription"))]
 		[DefaultValue(true)]
 		public bool log;
 

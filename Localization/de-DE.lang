@@ -11,3 +11,6 @@ Common.ChatSavedPlayer=Spieler gespeichert!
 Common.LogSavedPlayer=Spieler wurde mit SaveControl gespeichert
 Common.LogSavedPlayerWorld=Spieler und Welt wurden mit SaveControl gespeichert
 Common.LogQuit=Sofort beenden mit SaveControl
+
+Common.ConfigLogSaveLabel=Speicher nachricht im Log
+Common.ConfigLogSaveDescription=Wenn ja wird eine Nachricht in den log gesendet wenn gespeichert wird.

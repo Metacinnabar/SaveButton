@@ -11,3 +11,7 @@ Common.ChatSavedPlayer=Saved player!
 Common.LogSavedPlayer=Saved the player using SaveControl
 Common.LogSavedPlayerWorld=Saved the player and world using SaveControl
 Common.LogQuit=Force quit using SaveControl
+
+Common.ConfigLogSaveLabel=Log Saves
+Common.ConfigLogSaveDescription=True to send a message to the logs when you have saved the game.
+
