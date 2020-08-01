@@ -16,6 +16,7 @@ namespace SaveButton
 	//Make UIState so right click hold drag position
 	public class SaveButton : Mod
 	{
+		//Yorai moment. - Stevie
 		public static string noteFromGoodPro = "This code is absolutely horrible and you risk loosing all your brain cells by reading it.";
 
 		public bool areYouSureMenu = false;
@@ -73,7 +74,7 @@ namespace SaveButton
 
 					if (!Main.gameMenu && !Main.playerInventory)
 					{
-						bool hovering = DrawHoverText(Language.GetTextValue("Mods.SaveButton.Common.Save"), 22, 74);
+						bool hovering = DrawHoverText(Language.GetTextValue("Mods.SaveButton.Common.Save"), 22, 0);
 
 						if (hovering)
 						{

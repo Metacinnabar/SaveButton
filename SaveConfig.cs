@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel;
+using Terraria.Localization;
 using Terraria.ModLoader.Config;
 
 namespace SaveButton
 {
 	public class SaveConfig : ModConfig
 	{
-		[Label(Language.GetTextValue("Mods.SaveButton.Common.ConfigLogSaveLabel"))]
-		[Tooltip(Language.GetTextValue("Mods.SaveButton.Common.ConfigLogSaveDescription"))]
+		[Label("$Mods.SaveButton.Common.ConfigLogSaveLabel")]
+		[Tooltip("$Mods.SaveButton.Common.ConfigLogSaveDescription")]
 		[DefaultValue(true)]
 		public bool log;
 
