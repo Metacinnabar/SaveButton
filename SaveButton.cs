@@ -74,7 +74,7 @@ namespace SaveButton
 
                     if (!Main.gameMenu && !Main.playerInventory)
                     {
-                        bool hovering = DrawHoverText(Language.GetTextValue("Mods.SaveButton.Common.Save"), 22, 74);
+                        bool hovering = DrawHoverText(Language.GetTextValue("Mods.SaveButton.Common.Save"), 22, 0);
 
                         if (hovering)
                         {
