@@ -1,0 +1,16 @@
+Common.AreYouSure=Sei sicuro di voler uscire?
+Common.No=No!
+Common.Yes=Si!
+
+Common.ExitButtonText=Esci senza salvare
+Common.Save=Salva
+
+Common.ChatSavedPlayerWorld=Salvato i dati del giocatore e del mondo!
+Common.ChatSavedPlayer=Salvato i dati del giocatore!
+
+Common.LogSavedPlayer=Salvato i dati del giocatore usando SaveControl
+Common.LogSavedPlayerWorld=Salvato i dati del giocatore e del mondo usando SaveControl
+Common.LogQuit=Esci per forza usando SaveControl
+
+Common.ConfigLogSaveLabel=Registra i salvataggi
+Common.ConfigLogSaveDescription=Vero per mandare un messaggio al registro quando salvi il gioco.
