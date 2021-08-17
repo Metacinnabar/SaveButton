@@ -1,5 +1,6 @@
 Save Control adds a UI button in game to the top left of your screen that when pressed saves your progress. In singleplayer, it will save both your world and player. In multiplayer it will only save your player.
 Save Control also adds a button to the in-game settings menu. This button exits the world without saving. Upon clicking this button there wil be a prompt for assurance.
 
-Thanks to LolXD87 for spanish translations!
-German Localization by TheStachelfisch
+Spanish localization by LolXD87
+German localization by TheStachelfisch
+Italian localization by Ghoulboy
